@@ -1,0 +1,20 @@
+Line 376: Class ComctlLib.Slider of control interval was not a loaded control class.
+Line 564: Class ComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 126: The property name CausesValidation in serverip is invalid.
+Line 383: The property name _ExtentX in interval is invalid.
+Line 384: The property name _ExtentY in interval is invalid.
+Line 385: The property name _Version in interval is invalid.
+Line 386: The property name LargeChange in interval is invalid.
+Line 387: The property name SmallChange in interval is invalid.
+Line 388: The property name Min in interval is invalid.
+Line 389: The property name Max in interval is invalid.
+Line 390: The property name SelStart in interval is invalid.
+Line 391: The property name TickFrequency in interval is invalid.
+Line 392: The property name Value in interval is invalid.
+Line 567: The property name _ExtentX in ImageList1 is invalid.
+Line 568: The property name _ExtentY in ImageList1 is invalid.
+Line 570: The property name ImageWidth in ImageList1 is invalid.
+Line 571: The property name ImageHeight in ImageList1 is invalid.
+Line 572: The property name MaskColor in ImageList1 is invalid.
+Line 573: The property name _Version in ImageList1 is invalid.
+Line 716: The property name Images in ImageList1 is invalid.

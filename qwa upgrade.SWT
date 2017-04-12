@@ -1,0 +1,85 @@
+[Setup Wizard Template]
+TemplateDate=14-10-1998 1:05:01
+
+[Select Project and Options]
+txtProjFile=C:\qwadmin\src\QWAdmin.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\qwadmin\setup_small\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\WINDOWS\SYSTEM\MSWINSCK.OCX",False,32764
+File2="C:\WINDOWS\SYSTEM\COMCT232.OCX",False,32764
+File3="C:\WINDOWS\SYSTEM\COMCTL32.OCX",False,32764
+File4="C:\WINDOWS\SYSTEM\MSFLXGRD.OCX",False,32764
+File5="C:\WINDOWS\SYSTEM\COMDLG32.OCX",False,32764
+File6="C:\WINDOWS\SYSTEM\ZTRAY.OCX",False,32764
+File7="C:\WINDOWS\SYSTEM\TABCTL32.OCX",False,32764
+File8="C:\WINDOWS\SYSTEM\RICHTX32.OCX",False,32764
+File9=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINDOWS\SYSTEM\MSVBVM50.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",False,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",False,"$(WinSysPathSysFile)",,False
+File6="C:\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",False,"$(WinSysPathSysFile)",,False
+File7="C:\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",False,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\qwadmin\qwadmin.exe",True,"$(AppPath)",,False
+File9="C:\qwadmin\qwadmin.DEP",False,"$(AppPath)",,False
+File10="C:\WINDOWS\SYSTEM\MSWINSCK.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File11="C:\VB\SETUPKIT\KITFIL32\SYS32\AXDist.exe",False,"$(WinSysPath)",,True
+File12="C:\WINDOWS\SYSTEM\COMCT232.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\WINDOWS\SYSTEM\COMCTL32.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File14="C:\WINDOWS\SYSTEM\MSFLXGRD.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File15="C:\WINDOWS\SYSTEM\COMDLG32.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File16="C:\WINDOWS\SYSTEM\ZTRAY.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File17="C:\WINDOWS\SYSTEM\TABCTL32.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File18="C:\WINDOWS\SYSTEM\RICHTX32.OCX",False,"$(WinSysPath)",$(DLLSelfRegister),True
+File19="C:\VB\SETUPKIT\KITFIL32\SYS32\RichEd32.dll",False,"$(WinSysPathSysFile)",,False
+File20="C:\qwadmin\tfmaps.ini",True,"$(AppPath)",,False
+File21="C:\qwadmin\Changes.txt",True,"$(AppPath)",,False
+File22="C:\qwadmin\Configs\ThreeWave CTF server.cfg",True,"$(AppPath)\Configs",,False
+File23="C:\qwadmin\Configs\Change my server to MegaTF.cfg",False,"$(AppPath)",,False
+File24="C:\qwadmin\Configs\Default TeamFortress config.cfg",False,"$(AppPath)\Configs",,False
+File25="C:\qwadmin\Configs\Kombat DM server configuration.cfg",True,"$(AppPath)\Configs",,False
+File26="C:\qwadmin\Configs\QRing server configuration.cfg",True,"$(AppPath)\Configs",,False
+File27="C:\qwadmin\Configs\QWA.log",False,"$(AppPath)",,False
+File28="C:\qwadmin\Configs\REQUIEM's configuration.cfg",True,"$(AppPath)\Configs",,False
+File29="C:\qwadmin\Configs\Rocket Arena configuration.cfg",True,"$(AppPath)\Configs",,False
+File30="C:\qwadmin\Configs\# Interactive config.cfg",True,"$(AppPath)\Configs",,False
+File31="C:\qwadmin\Linux\README.QWSV+.txt",True,"$(AppPath)\Linux",,False
+File32="C:\qwadmin\Linux\qwsv+.tar.gz",True,"$(AppPath)\Linux",,False
+File33="C:\qwadmin\In_Testing\LogAnalyser.exe",True,"$(AppPath)\Test",,False

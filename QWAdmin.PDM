@@ -1,0 +1,142 @@
+[Root]
+Most Recent Package=QWAdmin Script
+
+
+[Package|QWAdmin Script|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\qwadmin\Setup
+
+[Package|QWAdmin Script|Configure DAO ISAMs]
+Applicable=No
+
+[Package|QWAdmin Script|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|QWAdmin Script|Files Found]
+
+[Package|QWAdmin Script|Files Released]
+
+[Package|QWAdmin Script|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\ZTray.ocx=
+C:\qwadmin\In_Testing\LogAnalyser.exe=
+
+[Package|QWAdmin Script|Out-of-Date Dependency Information]
+
+[Package|QWAdmin Script|Files Added]
+c:\qwadmin\changes.txt=
+c:\qwadmin\in_testing\loganalyser.exe=
+c:\qwadmin\linux\qwsv+.tar.gz=
+c:\qwadmin\linux\readme.qwsv+.txt=
+
+[Package|QWAdmin Script|Files Removed]
+
+[Package|QWAdmin Script|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\Comct232.ocx=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\ZTray.ocx=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\qwadmin\Changes.txt=Yes
+C:\qwadmin\In_Testing\LogAnalyser.exe=Yes
+C:\qwadmin\Linux\qwsv+.tar.gz=Yes
+C:\qwadmin\Linux\README.QWSV+.txt=Yes
+C:\qwadmin\qwadmin.exe=Yes
+
+[Package|QWAdmin Script|Configure Registry Files]
+Applicable=No
+
+[Package|QWAdmin Script|Configure Remote Servers]
+Applicable=No
+
+[Package|QWAdmin Script|Install Locations]
+C:\qwadmin.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comct232.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ZTray.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\qwadmin\Changes.txt=$(AppPath)
+C:\qwadmin\In_Testing\LogAnalyser.exe=$(AppPath)
+C:\qwadmin\Linux\qwsv+.tar.gz=$(AppPath)
+C:\qwadmin\Linux\README.QWSV+.txt=$(AppPath)
+C:\qwadmin\qwadmin.exe=$(AppPath)
+
+[Package|QWAdmin Script|Configure Shared Files]
+Applicable=Yes
+C:\qwadmin.exe=No
+C:\qwadmin\Changes.txt=No
+C:\qwadmin\In_Testing\LogAnalyser.exe=No
+C:\qwadmin\Linux\qwsv+.tar.gz=No
+C:\qwadmin\Linux\README.QWSV+.txt=No
+C:\qwadmin\qwadmin.exe=No
+
+[Package|QWAdmin Script|Distribution]
+Type=single
+Size=1.44 MB
+Title=QuakeWorld Administrator
+
+[Package|QWAdmin Script|IconGroups]
+Group0=QuakeWorld Administrator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|QWAdmin Script|QuakeWorld Administrator]
+Icon1=qwadmin.exe
+Title1=QuakeWorld Administrator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Changes.txt
+Title2=Release notes and changes
+StartIn2=$(AppPath)
+Key2=Icon5
+Icon3=LogAnalyser.exe
+Title3=Windows NT experimental QWSV+
+StartIn3=$(AppPath)
+Key3=Icon6
+Icon4=README.QWSV+.txt
+Title4=Linux QWSV+ Readme
+StartIn4=$(AppPath)
+Key4=Icon7
+Icon5=qwsv+.tar.gz
+Title5=Linux QWSV+
+StartIn5=$(AppPath)
+Key5=Icon8
+
+[Package|QWAdmin Script|Package]
+PackageFolder=C:\qwadmin\Setup
+ProjectFolder=C:\qwadmin\src
+ServerSideCab=
+File1=C:\qwadmin\Setup\setup.exe
+File2=C:\qwadmin\Setup\Setup.Lst
+File3=C:\qwadmin\Setup\qwadmin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

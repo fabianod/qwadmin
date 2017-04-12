@@ -1,0 +1,6 @@
+Line 49: Class RichTextLib.RichTextBox of control terminal was not a loaded control class.
+Line 55: The property name _ExtentX in terminal is invalid.
+Line 56: The property name _ExtentY in terminal is invalid.
+Line 57: The property name _Version in terminal is invalid.
+Line 61: The property name ScrollBars in terminal is invalid.
+Line 62: The property name TextRTF in terminal is invalid.
