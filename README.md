@@ -1,0 +1,2 @@
+# qwadmin
+QuakeWorld Server Admin
